@@ -1,0 +1,29 @@
+= Blog API Docs
+Juan Manuel Oviedo Expósito;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+Blog API.
+
+`EntryControllerTest` makes a call to a very simple service and produces three
+documentation snippets.
+
+One showing how to make a request using cURL:
+
+include::{snippets}/entry/curl-request.adoc[]
+
+One showing the HTTP request:
+
+include::{snippets}/entry/http-request.adoc[]
+
+And one showing the HTTP response:
+
+include::{snippets}/entry/http-response.adoc[]
+
+Response Body:
+include::{snippets}/entry/response-body.adoc[]
+
+
+Response Fields:
+include::{snippets}/entry/response-fields.adoc[]
